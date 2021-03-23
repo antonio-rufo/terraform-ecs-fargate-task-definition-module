@@ -67,11 +67,11 @@ module "container_definition" {
   stop_timeout                 = var.stop_timeout
   privileged                   = var.privileged
   system_controls              = var.system_controls
-  hostname                     = var.hostname
-  disable_networking           = var.disable_networking
-  interactive                  = var.interactive
-  pseudo_terminal              = var.pseudo_terminal
-  docker_security_options      = var.docker_security_options
+  # hostname                     = var.hostname
+  # disable_networking      = var.disable_networking
+  # interactive             = var.interactive
+  # pseudo_terminal         = var.pseudo_terminal
+  # docker_security_options = var.docker_security_options
 }
 
 # Task Definition
